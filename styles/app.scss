@@ -1,0 +1,53 @@
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap";
+
+$mauve: #d5b8ff;
+$rebecca-purple: #663399;
+
+body {
+  background-color: $mauve;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+main {
+  color: #fafafa;
+  height: 42em;
+  width: 42em;
+  max-height: calc(100% - 8em);
+  max-width: calc(100% - 4em);
+  background-color: $rebecca-purple;
+  padding: 1em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 7px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .our-photo {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 35em;
+      max-width: 100%;
+      border-radius: 40%;
+      margin-top: -3em;
+    }
+  }
+
+  .title {
+    font-size: 42px;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 2em);
+    p {
+      text-align: center;
+    }
+  }
+}
