@@ -5,8 +5,25 @@ export default function Home() {
   return (
     <Fragment>
       <Head>
-        <title>Dita's Birthday</title>
-        <link rel="icon" href="/our-photo.jpeg" />
+        <title>Dita's Birthday'</title>
+        <link rel={"icon"} href={"/other-photo.jpeg"} />
+        <meta name={"title"} content={"Dita's Birthday'"} />
+        <meta
+          name={"description"}
+          content={"Happy 26th Birthday Anindita Ayu Pratiwi"}
+        />
+        <meta name={"keywords"} content={"anindita, birthday"} />
+        <meta property={"og:title"} content={"Dita's Birthday'"} />
+        <meta
+          property={"og:description"}
+          content={"Happy 26th Birthday Anindita Ayu Pratiwi"}
+        />
+        <meta property={"og:site_name"} content={"Dita's Birthday'"} />
+        <meta
+          property={"og:url"}
+          content={"https://ditas-birthday.vercel.app/"}
+        />
+        <meta property={"og:image"} content={"/our-photo.jpeg"} />
       </Head>
       <main>
         <div className="our-photo">
