@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Fragment>
       <Head>
-        <title>Dita's Birthday'</title>
+        <title>Dita's Birthday</title>
         <link rel={"icon"} href={"/our-photo.jpeg"} />
         <meta name={"title"} content={"Dita's Birthday'"} />
         <meta
