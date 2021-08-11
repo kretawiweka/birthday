@@ -6,7 +6,7 @@ export default function Home() {
     <Fragment>
       <Head>
         <title>Dita's Birthday'</title>
-        <link rel={"icon"} href={"/other-photo.jpeg"} />
+        <link rel={"icon"} href={"/our-photo.jpeg"} />
         <meta name={"title"} content={"Dita's Birthday'"} />
         <meta
           name={"description"}
